@@ -1,23 +1,13 @@
 import React from "react";
 import './App.css';
+import Card from "./Card";
 
 function App(){
     return(
         <div className="App">
-            <div className="card">
-                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style={{width:'100%'}}></img>
-                <div className="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>              
-            </div>
-            <div className="card">
-                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style={{width:'100%'}}></img>
-                <div className="container">
-                    <h4><b>John Doe</b></h4>
-                    <p>Architect & Engineer</p>
-                </div>              
-            </div>
+            <Card/>
+            <Card/>
+            <Card/>
         </div>
     );
 }
