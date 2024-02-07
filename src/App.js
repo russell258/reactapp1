@@ -5,9 +5,9 @@ import Card from "./Card";
 function App(){
     return(
         <div className="App">
-            <Card/>
-            <Card/>
-            <Card/>
+            <Card name="Alan Smith"/>
+            <Card name="John Doe"/>
+            <Card name="Mary Jane"/>
         </div>
     );
 }
